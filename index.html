@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <!--Header-->
     <header class="header">
@@ -50,28 +53,55 @@
     </nav>
 
 
-<!--Login Form-->
-<div class="login-form-container">
+    <!--Login Form-->
+    <div class="login-form-container">
 
-    <div id="close-login-btn" class="fas fa-times"></div>
+        <div id="close-login-btn" class="fas fa-times"></div>
 
-    <form action="">
-        <h3>Sign In</h3>
-        <span>username</span>
-        <input type="email" name="" class="box" placeholder="example@abc.com" id="">
-        <span>Password</span>
-        <input type="password" name="" class="box" id="">
-        <div class="checkbox">
-            <input type="checkbox" name="" id="remember-me">
-            <label for="remember-me">Remember me</label>
+        <form action="">
+            <h3>Sign In</h3>
+            <span>username</span>
+            <input type="email" name="" class="box" placeholder="example@abc.com" id="">
+            <span>Password</span>
+            <input type="password" name="" class="box" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="#">Click here</a></p>
+            <p>don't have an account ? <a href="#">Create one</a></p>
+        </form>
+    </div>
+
+    <!--HOME SECTION-->
+
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>upto 75% off</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae officiis hic quod. Laudantium dicta
+                    sit vero labore iste hic asperiores. Porro perspiciatis qui odio reprehenderit alias, aut quis. Hic
+                    vero nemo odio assumenda dolor aspernatur. Sint nesciunt voluptatum hic, sapiente cum deserunt
+                    dolorum eos ea nihil molestias labore itaque et.</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="swiper phone-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="images/phone-1.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/phone-5.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/phone-3.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/phone-2.png" alt=""></a>
+                    <a href="#" class="swiper-slide"><img src="images/phone-4.png" alt=""></a>
+                </div>
+                <img src="images/stand.png" class="stand">
+            </div>
         </div>
-        <input type="submit" value="sign in" class="btn">
-        <p>forget password ? <a href="#">Click here</a></p>
-        <p>don't have an account ? <a href="#">Create one</a></p>
-    </form>
-</div>
+    </section>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
+    
 </body>
+
 </html>
