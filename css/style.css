@@ -311,9 +311,34 @@ section{
     padding: 1rem 0;
 }
 
+.icon-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
 
+.icon-container .icons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
 
+.icon-container .icons i{
+    font-size: 3.5rem;
+    color: var(--blue);
+}
 
+.icon-container .icons h3{
+    font-size: 2.2rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+}
+
+.icon-container .icons p{
+    font-size: 1.4rem;
+    color: var(--dark-color);
+}
 
 
 
