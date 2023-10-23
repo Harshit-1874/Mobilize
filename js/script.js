@@ -101,3 +101,25 @@ var swiper = new Swiper(".phone-slider", {
       },
     },
   });
+
+  var swiper = new Swiper(".reviews-slider", {
+    spaceBetween:10,
+    loop:true,
+    centeredSlider:true,
+    grabCursor:true,
+    autoplay:{
+        delay: 5500,
+        disableOnInteraction : false,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+  });
