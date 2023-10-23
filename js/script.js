@@ -37,7 +37,7 @@ var swiper = new Swiper(".phone-slider", {
     loop:true,
     centeredSlider:true,
     autoplay:{
-        delay: 9500,
+        delay: 5500,
         disableOnInteraction : false,
     },
     breakpoints: {
@@ -58,7 +58,7 @@ var swiper = new Swiper(".phone-slider", {
     loop:true,
     centeredSlider:true,
     autoplay:{
-        delay: 9500,
+        delay: 5500,
         disableOnInteraction : false,
     },
     navigation: {
@@ -77,6 +77,27 @@ var swiper = new Swiper(".phone-slider", {
       },
       1024: {
         slidesPerView: 4,
+      },
+    },
+  });
+
+  var swiper = new Swiper(".accessories-slider", {
+    spaceBetween:10,
+    loop:true,
+    centeredSlider:true,
+    autoplay:{
+        delay: 5500,
+        disableOnInteraction : false,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
       },
     },
   });
