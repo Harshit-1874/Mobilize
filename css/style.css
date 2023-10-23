@@ -532,6 +532,43 @@ section{
     color: var(--blue);
 }
 
+.deals{
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.deals .content{
+    flex: 1 1 42rem;
+}
+.deals .image{
+    flex: 1 1 42rem;
+}
+
+.deals .image img{
+    width: 100%;
+}
+
+.deals .content h3{
+    color: var(--blue);
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+}
+
+.deals .content h1{
+    color: var(--black);
+    font-size: 4rem;
+}
+
+.deals .content p{
+    padding: 1rem 0;
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
 
 
 
