@@ -37,7 +37,7 @@ var swiper = new Swiper(".phone-slider", {
     loop:true,
     centeredSlider:true,
     autoplay:{
-        delay: 500,
+        delay: 9500,
         disableOnInteraction : false,
     },
     breakpoints: {
@@ -123,3 +123,11 @@ var swiper = new Swiper(".phone-slider", {
       },
     },
   });
+
+  const atcButtons = document.querySelectorAll(".atc");
+
+atcButtons.forEach(function(atcButton) {
+    atcButton.addEventListener('click', function() {
+        document.querySelector(".rounded-circle").style.display = 'inline';
+    });
+});
