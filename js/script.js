@@ -131,3 +131,22 @@ atcButtons.forEach(function(atcButton) {
         document.querySelector(".rounded-circle").style.display = 'inline';
     });
 });
+
+const cartContainer = document.querySelector('.cart-container');
+const cartIcon = document.querySelector('#cart-btn');
+const cartList = document.querySelector('.cart-list');
+
+cartIcon.onclick =() => {
+  cartContainer.classList.toggle('active');
+}
+
+
+// $document.ready(function(){
+//   const $cartContainer = $(".cart-container");
+//   const $cartIcon = $(".fa-shopping-cart");
+//   const $cartList = $(".cart-list");
+
+//   $cartIcon.click(function(){
+//     $cartContainer.toggleClass('active');
+//   })
+// })

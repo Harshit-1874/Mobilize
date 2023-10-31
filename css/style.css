@@ -33,6 +33,10 @@ html::-webkit-scrollbar{
     width: 1rem;
 }
 
+a{
+    text-decoration: none;
+}
+
 html::-webkit-scrollbar-track{
     background: transparent;
 }
@@ -167,6 +171,7 @@ section{
     display: inline-block;
     padding: 1.2rem;
     font-size: 1.7rem;
+    text-decoration: none;
 }
 
 .header .header-2 .nav1bar a:hover{
@@ -193,6 +198,7 @@ section{
     font-size: 2.5rem;
     padding: 2rem;
     color: #fff;
+    text-decoration: none;
 }
 
 .bottom-navbar a:hover{
@@ -290,6 +296,26 @@ section{
     color: var(--black);
     cursor: pointer;
 }
+
+.cart-container{
+    position:fixed;
+    top:0;
+    left: -100%;
+    width: 40%;
+    height: 100%;
+    background:#fff;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease;
+}
+
+.cart-container.active{
+    left:0;
+}
+
+.cart{
+    padding: 20px;
+}
+
 
 .home{
     background: var(--light-color);

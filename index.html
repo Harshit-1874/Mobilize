@@ -12,6 +12,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Document</title>
 </head>
 
@@ -29,10 +32,10 @@
             <div class="icons">
                 <div id="search-btn" class="fas fa-search"></div>
                 <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-shopping-cart"><span
-                    class="position-absolute top-20 start-10 translate-middle p-2 bg-danger border border-light rounded-circle"
-                    style="display: none;">
-                </span></a>
+                <a href="#" class="fas fa-shopping-cart" id="cart-btn"><span
+                        class="position-absolute top-20 start-10 translate-middle p-2 bg-danger border border-light rounded-circle"
+                        style="display: none;">
+                    </span></a>
                 <div id="login-btn" class="fas fa-user"></div>
             </div>
 
@@ -49,6 +52,14 @@
         </div>
     </header>
     <!--Header-->
+
+    <!--Cart-->
+    <div class="cart-container">
+        <div class="cart">
+            <h2>Your Cart</h2>
+            <ul class="cart-list"></ul>
+        </div>
+    </div>
 
     <!--Bottom navbar-->
 
@@ -69,9 +80,9 @@
         <form action="">
             <h3>Sign In</h3>
             <span>username</span>
-            <input type="email" name="" class="box" placeholder="example@abc.com" id="">
+            <input type="email" name="" class="box" placeholder="example@abc.com">
             <span>Password</span>
-            <input type="password" name="" class="box" id="">
+            <input type="password" name="" class="box">
             <div class="checkbox">
                 <input type="checkbox" name="" id="remember-me">
                 <label for="remember-me">Remember me</label>
