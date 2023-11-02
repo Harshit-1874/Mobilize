@@ -1,0 +1,1 @@
+A mobile phone store, built using HTML, CSS and Vanilla JS. This also implies a swiperJS library. 
